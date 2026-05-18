@@ -31,13 +31,13 @@ sub-second boot times. [Writeup here.](https://jamesmunsch.com/words/2026-01-18-
 engine built with Elixir and SQLite. Think "what if SQLite had a vector search layer and
 could talk to other instances?"
 
-**[brood-box](https://github.com/allen-munsch/brood-box)** &middot; CLI for running coding
-agents inside hardware-isolated Firecracker microVMs. Because your AI assistant shouldn't
-have access to your filesystem.
+**[autocrud](https://github.com/allen-munsch/autocrud)** &middot; Any SQLite database,
+instant REST API. 120 lines of bash, no config, no schemas, no routes.
+[Writeup here.](https://jamesmunsch.com/words/2026-05-05-things-you-can-fit-in-a-single-shell-script.html)
 
-**[sekvo](https://github.com/allen-munsch/sekvo)** &middot; LLM pipeline orchestration in
-Python. Sequencing, branching, tool use — the plumbing that makes agentic workflows
-reliable.
+**[nest.shell](https://github.com/allen-munsch/nest.shell)** &middot; A NestJS parody
+built entirely in bash. File-system routing, guards, pipes, controllers, a CLI, 43 passing
+tests — all under 700 lines.
 
 **[SQL-to-Redis transpiler](https://jamesmunsch.com/words/2025-03-20-i-heard-you-wanted-sql-in-your-nosql.html)**
 &middot; A weekend project. Parse SQL, transpile to Redis commands. Not production-ready,
